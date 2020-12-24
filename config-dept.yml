@@ -37,7 +37,7 @@ mybatis:
   type-aliases-package: classpath:com.yyh.springcloud.pojo
   config-location: classpath:mybatis/mybatis-config.xml
 spring:
-  profiles: dev
+  profiles: test
   application:
     name: springcloud-config-dept
   datasource:
